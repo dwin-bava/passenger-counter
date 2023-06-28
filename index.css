@@ -1,5 +1,5 @@
 body{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://img.freepik.com/free-psd/3d-rendering-mike-pointing_23-2149312575.jpg?w=1380&t=st=1687991811~exp=1687992411~hmac=6158e7d5d098a2600632cd081e912c2c07ebc1d4af40b871278ef6c534d1a5a3');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url('https://img.freepik.com/free-vector/african-male-female-character-wearing-casual-clothes-different-hairstyles-gathered-black-people-crowd-demanding-equal-rights-every-person-flat-vector-illustration-black-community-concept_74855-22098.jpg?w=1060&t=st=1687993587~exp=1687994187~hmac=5b6ad86a4ba6db255fba044c4481f436d02f39356afd7e184e3811af2366c46d');
    /* display: grid; */
    /* place-items: center; */
    /* align-items: center; */
@@ -22,7 +22,7 @@ body{
 .container{
     background-color: white;
     /* background-image: url(''); */
-    width: 60%;
+    width: 35%;
     text-align: center;
     border-radius: 10px;
     /* margin-top: 20%; */
@@ -70,5 +70,12 @@ button {
     background-color: rgb(63, 37, 37);
     border-radius: 10px;
     /* margin-left: 35%; */
+}
+
+
+@media (max-width: 600px) {
+  .container{
+    width: 65%;
+  }
 }
 
